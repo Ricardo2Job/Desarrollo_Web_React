@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Carrito from './carrito';
 import Devolucion from './devolucion';
+import AdminInicio from './vista/AdminInicio';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
