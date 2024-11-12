@@ -22,4 +22,5 @@ export default App;
 
 /* Si no funciona el codigo instalar lo siguiente:
 npm install react-router-dom
+wajajaja
 */
