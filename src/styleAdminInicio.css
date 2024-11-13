@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .admin-inicio {
+    background-image: url('../imagenes/fondo.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .admin-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  html,
+  body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  
+  .admin-body {
+    flex: 1;
+    background-color: #282c34;
+    color: white;
+  }
+  
+  .admin-logo {
+    width: 100px;
+  }
+  
+  .admin-title {
+    margin: 0;
+  }
+  
+  /* Estilo para la navegación */
+  .admin-nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .admin-nav li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  .logo {
+    width: 70px;
+  }
+  
+  .menu {
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 220px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+  }
+  
+  .menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu li {
+    padding: 15px;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .menu li:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #bcbcbc;
+  }
+  
+  .contenido {
+    margin-left: 220px;
+    padding: 20px;
+    flex-grow: 1;
+    margin-top: 100px;
+    color: rgb(255, 255, 255);
+    overflow-y: auto;
+  }
+  
+  .agregar-usuario {
+    margin: 20px;
+    padding: 15px;
+    background-color: #302f30;
+    border-radius: 8px;
+  }
+  
+  /* Estilos para los campos de entrada */
+  .agregar-usuario input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #52525a;
+    transition: background-color 0.3s;
+  }
+  
+  /* Estilos específicos para el input de archivo */
+  .input-file {
+    background-color: transparent;
+    border: none;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilo para el botón */
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Cambiar el color de fondo al hacer foco en los campos de texto */
+  .agregar-usuario input[type="text"]:focus {
+    background-color: #e0e0e0;
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  
+  .agregar-usuario input {
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+  }
+  
+  .agregar-usuario button {
+    background-color: #364051;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .agregar-usuario button:hover {
+    background-color: #231f34;
+  }
+  
+  .buscador {
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .tabla-usuarios {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .dashboard {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    color: white;
+  }
+  
+  .tabla-usuarios th {
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  .tabla-usuarios td {
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    text-align: left;
+    background-color: transparent;
+  }
+  
+  .foto-usuario {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  .footer {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0; 
+    width: 100%; 
+    z-index: 2;
+  }
+  .buscador-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .buscador {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 250px;
+  }
+  
+  .buscador-icon {
+    margin-left: -30px;
+    color: #aaa;
+  }
+  
